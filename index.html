@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu-Tang Name Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Carter+One&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Honk:MORF@15&family=Lilita+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Titan+One&family=Unkempt:wght@400;700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Wu-Tang Name Generator: 2026 Edition</h1>
+    </section>
+    
+    <section class="questionsContainer">
+        <section class = "flexContainer">
+            <p>1. What is your favorite type of temperature metric?</p>
+            <input class="choices" id="q1a" type="radio" name="q1" value="a">
+            <label for="q1a">kelvin</label>
+            <input class="choices" id="q1b" type="radio" name="q1" value="b">
+            <label for="q1b">fahrenheit</label>
+            <input class="choices" id="q1c" type="radio" name="q1" value="c">
+            <label for="q1c">celsius</label>
+        </section>
+       
+
+        <p id = "p2">2. Choose your preferred type of room lighting:</p>
+        <input class="choices" id="q2a" type="radio" name="q2" value="a">
+        <label for="q2a">overhead florescent</label>
+        <input class="choices" id="q2b" type="radio" name="q2" value="b">
+        <label for="q2b">warm lamp lighting</label>
+        <input class="choices" id="q2c" type="radio" name="q2" value="c">
+        <label for="q2c">candles everywhere</label>
+
+        <p id = "p3">3. What is the best way to consume cereal?</p>
+        <input class="choices" id="q3a" type="radio" name="q3" value="a">
+        <label for="q3a">pour cereal, then pour milk</label>
+        <input class="choices" id="q3b" type="radio" name="q3" value="b">
+        <label for="q3b">pour milk, then pour cereal</label>
+        <input class="choices" id="q3c" type="radio" name="q3" value="c">
+        <label for="q3c">dry: no milk, just cereal</label>
+
+        <p id = "p4">4. Who is your favorite Kingdom Hearts character?</p>
+        <input class="choices" id="q4a" type="radio" name="q4" value="a">
+        <label for="q4a">Sora</label>
+        <input class="choices" id="q4b" type="radio" name="q4" value="b">
+        <label for="q4b">Riku</label>
+        <input class="choices" id="q4c" type="radio" name="q4" value="c">
+        <label for="q4c">Kairi</label>
+
+        <p id = "p5">5. If one vegetable had to be blighted from this Earth FOREVER, which would you choose?</p>
+        <input class="choices" id="q5a" type="radio" name="q5" value="a">
+        <label for="q5a">potato</label>
+        <input class="choices" id="q5b" type="radio" name="q5" value="b">
+        <label for="q5b">carrot</label>
+        <input class="choices" id="q5c" type="radio" name="q5" value="c">
+        <label for="q5c">spinach</label>
+        
+        <button id="generate">Enter</button>
+
+        <h2 id="result"></h2>
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
