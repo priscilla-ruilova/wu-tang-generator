@@ -11,4 +11,8 @@
 ### What I learned: 
 - This was a great way to practice calling arrays from server.js to main.js. 
 - I also learned more about game logic by using forEach() to loop through the possible survey answers (a, b, or c) and to count which answer was most picked to determine what message the user will get back. 
-
+### How to run project:
+- This project uses server-side JavaScript that was locally hosted on my personal computer. As a result, you can only run the website as a static site. 
+- Though you can't see the full functionality, you can check the pseudocode to understand how it works.
+- Follow the link in the about section to run the static website:
+![screenshot of an arrow pointing to github pages link](/img/arrowTowardsWebsite.png)
