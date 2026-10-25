@@ -14,4 +14,4 @@
 ### How to run project:
 - This project uses server-side JavaScript that was locally hosted on my personal computer. As a result, you can only run the website as a static site. 
 - Though you can't see the full functionality, you can check the pseudocode to understand how it works.
-- Follow the link in the about section to run the site or [CLICK HERE]().
+- Follow the link in the about section to run the site or [CLICK HERE](https://wu-tang-generator-6ibp.onrender.com/).
